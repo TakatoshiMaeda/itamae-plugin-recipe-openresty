@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Itamae::Plugin::Recipe::Openresty::VERSION
   spec.authors       = ["Takatoshi Maeda"]
   spec.email         = ["me@tmd.tw"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Itamae openresty recipe plugin}
+  spec.description   = %q{Itamae openresty recipe plugin}
   spec.homepage      = ""
   spec.license       = "MIT"
 

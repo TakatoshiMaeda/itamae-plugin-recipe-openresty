@@ -4,7 +4,7 @@ module Itamae
   module Plugin
     module Recipe
       module Openresty
-        DEFAULT_VERSION = '1.7.4.1'.freeze
+        DEFAULT_VERSION = '1.11.2.1'.freeze
 
         DEFAULT_PACKAGES = {
           ubuntu: [
@@ -44,7 +44,7 @@ module Itamae
 
           metadata = {}
           metadata[:version]                 = raw['version'] || DEFAULT_VERSION
-          metadata[:archive_url]             = raw['archive_url'] || "http://openresty.org/download/ngx_openresty-#{metadata[:version]}.tar.gz"
+          metadata[:archive_url]             = raw['archive_url'] || "https://openresty.org/download/openresty-#{metadata[:version]}.tar.gz"
           metadata[:work_dir]                = raw['work_dir'] || BUILD_WORKING_DIR
           metadata[:configure_flags]         = self.extract_configure_flags(raw['configure_flags'])
           metadata[:install_depends_package] = raw['install_depends_package'] || true

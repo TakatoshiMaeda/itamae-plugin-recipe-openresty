@@ -50,7 +50,6 @@ openresty:
     config-path: /opt/nginx/conf/nginx.conf
     pid-path: /opt/nginx/logs/nginx.pid
     sbin-path: /opt/nginx/sbin/nginx
-  install_depends_package: true
 ```
 
 ## Contributing
